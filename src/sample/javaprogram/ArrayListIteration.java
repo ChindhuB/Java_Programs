@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class ArrayListIteration {
 	
-	//To get ArrayList
+	//To get ArrayList :
 	private static ArrayList<String> getlistArray() {
 		Scanner sc=new Scanner(System.in);
 		boolean cont=true;
