@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.ListIterator;
 import java.util.Scanner;
 
-public class ArrayListIteration {
+public class ArrayListIteration2 {
 	
 	//To get ArrayList :
 	private static ArrayList<String> getlistArray() {

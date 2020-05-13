@@ -6,7 +6,7 @@ public class BinarySearch {
 	static int binSer;
 	static int arr[];
 	static int num;
-
+//Comments added
 	public static void binSearch(int serarr[], int binnum) {
 		arr = serarr;
 		num=binnum;
