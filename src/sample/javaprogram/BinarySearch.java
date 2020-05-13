@@ -6,7 +6,7 @@ public class BinarySearch {
 	static int binSer;
 	static int arr[];
 	static int num;
-//Comments added
+//Binary Search in Array
 	public static void binSearch(int serarr[], int binnum) {
 		arr = serarr;
 		num=binnum;
@@ -17,6 +17,7 @@ public class BinarySearch {
 			e.printStackTrace();
 		}
 	}
+	//Display Search Result
 	public static void resultDisplay() {
 		if (binSer >= 0) {
 			System.out.println(" Number " + arr[binSer] + " is present in the Array provided");
