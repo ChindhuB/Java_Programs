@@ -87,9 +87,10 @@ public class ReadWriteExcel {
 	}
 
 	// Close Workbook
-	public void closeExcelSheet() throws IOException {
+	public static void closeExcelSheet() throws IOException {
 		wb.close();
 		fi.close();
+		fo.close();
 
 	}
 
